@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+    background: linear-gradient(135deg, #00c3ff, #2f2fff);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  .login-box {
+    background-color: #e0f7fa;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0,2);
+    width: 300px;
+    text-align: center;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: #ffff;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00bcd4;
+    color: white;
+    font-size: 18px;
+  }
+    </style>
+    <div class="login-box">
+        <form>
+            <label for="user">User</label>
+            <input type="text" id="user" name="user">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+</body>
+</html>
